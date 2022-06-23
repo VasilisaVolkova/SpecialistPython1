@@ -20,6 +20,11 @@
 name = input("Имя: ")
 surname = input("Фамилия: ")
 # TODO: you code here...
+name = input("Имя: ")
+surname = input("Фамилия: ")
+print(name.capitalize())
+print(surname.capitalize())
+
 ```
 
 ---
