@@ -17,6 +17,10 @@
 ```python
 text = ...
 # TODO: you code here...
+text = "Сегодня была бы отличная погода если бы не эта жара"
+s = text.count("б")
+print(s)
+
 ```
 
 ---
