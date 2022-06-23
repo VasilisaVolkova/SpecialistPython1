@@ -36,6 +36,13 @@ n = 12
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+price = float(input("Price: "))
+quantity = int(input("Quantity: "))
+count = 1
+while count <= quantity:
+    total_price = price * count
+    print(count, total_price)
+    count += 1
+
 ```
 
