@@ -28,7 +28,17 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("n: "))
+row = 1
+if 1 <= n <= 9:
+    while row <= n:
+        column = 1
+        while column <= n:
+            print(row * column, end='\t')
+            column += 1
+        print(" ")
+        row += 1
+
 ```
 
 ---
