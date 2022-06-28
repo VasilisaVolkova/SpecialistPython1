@@ -4,7 +4,8 @@
 # * попробуйте решить данную задачу не используя строки
 
 def palindrome(number):
-    pass
+    number = str(number)
+    return number == number[::-1]
 
 
 # Тестируем функцию
