@@ -4,3 +4,18 @@
 # На вход программе подается строка формата nxm (x - латинская буква икс).
 # Пример входных данных: 12x6
 # Если данные вводятся в неверном формате, сообщить об этом и запросить ввод заново.
+
+rec = str(input("Rectangle: "))
+string = rec.split('x')
+
+try:
+    string[0] = int(string[0])
+    string[1] = int(string[1])
+except ValueError:
+    print("введены некорректные данные")
+
+n = string[0]
+m = string[1]
+number = (n * m) // (m ** 2)
+print(string)
+print(number)
